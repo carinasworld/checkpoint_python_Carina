@@ -15,3 +15,5 @@ for i in range(0, 6):
 for i in range(0, 6):    
     taxrate = taxes[i]/salary[i] * 100
     print(f'Employee:{customers[i]}, {taxrate}')
+    if taxrate <30:
+        print(f'check into {customers[i]}')
